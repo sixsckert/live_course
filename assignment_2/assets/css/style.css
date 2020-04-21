@@ -43,6 +43,9 @@ p, li {
   font-family: 'Noto Sans TC', sans-serif;
   font-style: normal;
 }
+.text-white {
+  color: #FFF;
+}
 
 /* header */
 .intro {
@@ -56,15 +59,15 @@ p, li {
 .intro .container {
   width: auto;
 }
-.intro .text {
+.intro .intro-text {
   margin-top: 98px;
 }
-.intro .title {
+.intro .intro-text .title {
   margin-bottom: 32px;
   font-size: 72px;
   line-height: 80px;
 }
-.intro p {
+.intro .intro-text p {
   line-height: 42px;
 }
 .intro .icons {
@@ -82,17 +85,17 @@ p, li {
   margin-top: 40px;
   margin-bottom: 16px;
 }
-.about ul {
+.about .about-list {
   margin-top: 25px;
   border-top: 1px solid #000;
   padding-top: 25px;
 }
-.about ul li {
+.about .about-list li {
   margin-bottom: 20px;
   padding: 0 20px;
   line-height: 42px;
 }
-.about ul li::before {
+.about .about-list li::before {
   margin-right: 16px;
   content: "";
   display: inline-block;
@@ -118,6 +121,9 @@ p, li {
   font-weight: 400;
   line-height: 42px;
 }
+.brand .brand-info {
+  font-size: 20px;
+}
 .brand img {
   margin-bottom: 40px;
 }
@@ -138,9 +144,6 @@ p, li {
   font-weight: 400;
   line-height: 42px;
 }
-.works .card p {
-  color: #FFF;
-}
 
 /* footer */
 .contact {
@@ -149,7 +152,6 @@ p, li {
   color: #FFF;
   text-align: center;
 }
-
 .contact .title {
   margin-bottom: 16px;
 }
